@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int i=0,j=0;
+int n;
+int str[3][3];
+printf("Enter a 3x3 Array:");
+scanf("%d" ,&str);
+for(n=0;n<3;n++)
+{
+printf("%d" , str[i][j]);
+i++;
+j++;
+}
+return 0;
+
+}
