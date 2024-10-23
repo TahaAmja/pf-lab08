@@ -3,9 +3,10 @@ int main()
 {
 int m,n,max;
 printf("Enter rows and column");
-scanf(" %d " , m,n);
+scanf(" %d " , &m,&n);
 int str[m][n];
 print("Enter an array");
+scanf(" %d " ,&str);
 max=str[0][0];
 for(m=0,n=0;m<10,n<10;m++,n++)
 {if(str[m][n]>0)
