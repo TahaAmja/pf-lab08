@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+int m,n,;
+int str[3][3];
+print("Enter an array");
+scanf(" %d " ,&str);
+int min=str[0][n];
+int max=str[m][n];
+for(m=0;m<3;m++)
+{if(str<min)
+min=str[m][n];
+}
+for(n=0;n<3;n++)
+{if(str<max)
+min=str[m][n];
+}
+printf("Saddle point= %d" , str[m][n]);
+}
