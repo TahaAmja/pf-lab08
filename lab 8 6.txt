@@ -9,8 +9,9 @@ print("Enter an array");
 max=str[0][0];
 for(m=0,n=0;m<10,n<10;m++,n++)
 {if(str[m][n]>0)
-{printf("max:\nstr[%d][%d]= %d " , m,n,max);
+{max=str[m][n];);
 }
+printf("max:\nstr[%d][%d]= %d " , m,n,max
 
 }
 return 0;
